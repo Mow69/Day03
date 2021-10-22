@@ -1,1 +1,1 @@
-tr ' ' '\n' < histoire.txt | sort | uniq -c | sort -nr
+tr ' ' '\n' < histoire.txt | sort | uniq -c | sort -nr | awk '{print $2 " " $1}'
