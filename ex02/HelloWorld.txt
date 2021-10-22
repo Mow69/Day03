@@ -1,0 +1,2 @@
+nc -l 1249 > capture.png
+nc 192.168.1.85 1249 < capture.png
